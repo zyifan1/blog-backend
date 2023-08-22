@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.yifan.blogbackend.mapper")
+//@EnableElasticsearchRepositories(basePackages = "com.yifan.blogbackend.esdao")
 public class BlogBackendApplication {
 
     public static void main(String[] args) {

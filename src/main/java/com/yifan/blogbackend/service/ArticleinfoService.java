@@ -1,7 +1,6 @@
 package com.yifan.blogbackend.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yifan.blogbackend.model.dto.article.ArticleQueryRequest;
 import com.yifan.blogbackend.model.entity.Articleinfo;
 import com.yifan.blogbackend.model.vo.ArticleVO;
 
@@ -18,7 +17,7 @@ public interface ArticleinfoService extends IService<Articleinfo> {
 
 
     /**
-     * 校验
+     * 参数校验
      * @param articleinfo entity
      * @param add 是否是插入数据时进行的校验
      */
@@ -34,6 +33,6 @@ public interface ArticleinfoService extends IService<Articleinfo> {
     List<ArticleVO> queryArticle(String field,Articleinfo articleinfo) throws IllegalAccessException;
 
 
-//    long deleteArticle();
+
 
 }

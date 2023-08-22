@@ -6,11 +6,16 @@ spring:
     url: jdbc:mysql://yifanrds.mysql.rds.aliyuncs.com:3306/blog
     username: blog
     password: 518420Blog
+#  elasticsearch:
+#    uris: http://localhost:9200
+#    username: root
+#    password: zyf
 server:
   port: 8090
 #mybatis:
 #  configuration:
 #    map-underscore-to-camel-case: false
+
 
 mybatis-plus:
   configuration:

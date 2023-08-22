@@ -14,6 +14,11 @@ import lombok.Data;
 public class ArticleUpdateRequest {
 
     /**
+     * id
+     */
+    private Long id;
+
+    /**
      * 文章标题
      */
     private String title;
