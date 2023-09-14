@@ -3,13 +3,13 @@ spring:
     name: blog-backend
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://yifanrds.mysql.rds.aliyuncs.com:3306/blog
-    username: blog
-    password: 518420Blog
+    url: 
+    username: 
+    password: 
 #  elasticsearch:
-#    uris: http://localhost:9200
-#    username: root
-#    password: zyf
+#    uris: 
+#    username: 
+#    password: 
 server:
   port: 8090
 #mybatis:
